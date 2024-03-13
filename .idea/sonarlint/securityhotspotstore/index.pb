@@ -48,3 +48,5 @@ w
 Gdocker-compose/prometheus_grafana_loki/prometheus_config/prometheus.yml,8\b\8bf84b76081a20e13ff2de19043317e5ee9640c0
 q
 Adocker-compose/prometheus_grafana_loki/grafana_config/grafana.ini,f\8\f8cbe38770b92c028669b0117aca9c8d99f411e6
+X
+(docker-compose/mysql/docker-compose.yaml,a\f\af0c702b1f026a151f0939c9b4e2a6e07a2e553c
