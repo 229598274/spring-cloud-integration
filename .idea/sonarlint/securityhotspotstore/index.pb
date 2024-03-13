@@ -38,3 +38,13 @@ X
 (docker-compose/nacos/docker-compose.yaml,2\5\2511e946d3eb0d2c2f7ded1e7db04783def55cc1
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+[
++docker-compose/keycloak/docker-compose.yaml,4\5\45aa4d1bf41d9fcdf5c7a17d1f411fca1b7457d7
+N
+docker-compose/nacos/readme.md,9\5\956d1fdb4b154483785bd767f8fa031ef5b814c2
+j
+:docker-compose/prometheus_grafana_loki/docker-compose.yaml,6\1\6143d20eec241f525f1316518aeb7f5420f68286
+w
+Gdocker-compose/prometheus_grafana_loki/prometheus_config/prometheus.yml,8\b\8bf84b76081a20e13ff2de19043317e5ee9640c0
+q
+Adocker-compose/prometheus_grafana_loki/grafana_config/grafana.ini,f\8\f8cbe38770b92c028669b0117aca9c8d99f411e6
