@@ -34,3 +34,5 @@ b
 2docker-compose/nacos/init.d/application.properties,c\8\c832955f6f6cf8070153cb3f19ad3d85b971737d
 k
 ;docker-compose/nacos/seata-server/resources/application.yml,8\6\86356ef4098830beb89e16c0767e82b85610d9cc
+X
+(docker-compose/nacos/docker-compose.yaml,2\5\2511e946d3eb0d2c2f7ded1e7db04783def55cc1
