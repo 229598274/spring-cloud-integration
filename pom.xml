@@ -13,6 +13,9 @@
         <module>service-a</module>
         <module>service-b</module>
         <module>api-gateway</module>
+        <module>authn-commons</module>
+        <module>swagger-commons</module>
+        <module>commons</module>
     </modules>
 
     <properties>
