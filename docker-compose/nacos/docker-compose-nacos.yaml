@@ -7,30 +7,24 @@ services:
       - ./env/nacos-standlone-mysql.env
     volumes:
       - ./volumes/standalone-logs/:/home/nacos/logs
+      - ./init.d/application.properties:/home/nacos/init.d/custom.properties
     ports:
       - "8848:8848"
       - "9848:9848"
+      - "9555:9555"
     depends_on:
-      mysql:
-        condition: service_healthy
+      - mysql
     restart: always
   mysql:
     container_name: mysql
-#    build:
-#      context: ..
-#      dockerfile: ./image/mysql/Dockerfile
-    image: nacos-mysql:5.7
+    image: nacos/nacos-mysql:5.7
     env_file:
       - ./env/mysql.env
     volumes:
       - ./volumes/mysql:/var/lib/mysql
     ports:
       - "3306:3306"
-    healthcheck:
-      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
-      interval: 5s
-      timeout: 10s
-      retries: 10
+    restart: always
 
 #  seata-server:
 #    image: seataio/seata-server:1.5.2
@@ -48,3 +42,4 @@ services:
 #      # 假设我们通过docker cp命令把资源文件拷贝到相对路径`./seata-server/resources`中
 #      # 如有问题，请阅读上面的[注意事项]以及[使用自定义配置文件]
 #      - "./seata-server/resources:/seata-server/resources"
+

@@ -16,19 +16,21 @@ _
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-X
-(docker-compose/docker-compose-nacos.yaml,b\5\b5ff0a17f1339b7949ffddff054520d9899564a3
 ^
 .docker-compose/nacos/docker-compose-nacos.yaml,1\1\112cfb12bd6cc20d48b3a4c1dff9eacda056059f
 R
 "docker-compose/nacos/env/mysql.env,1\8\18aa3b1eb618d528e700ab5e846e55219f162f32
 b
 2docker-compose/nacos/env/nacos-standlone-mysql.env,c\8\c8fa5675a050e724e22a0d6238a998ff001cd4fa
-Z
-*docker-compose/nacos/image/mysql/Dockerfle,5\e\5e42dab839d52290036f5dacf20293f735c5e4f3
 [
 +docker-compose/nacos/image/mysql/Dockerfile,8\d\8d046442c5ed0d4bb193dac64905512735f3db59
-X
-(docker-compose/nacos/image/mysql/sql.sql,7\4\742af7f333ef88aad2be0392dfa077c08ec1c32b
 a
 1docker-compose/nacos/image/mysql/mysql-schema.sql,a\3\a30a8721181d04524d26d6c6415804fce82a2f22
+X
+(docker-compose/redis/docker-compose.yaml,0\8\087d60f4bf47f5c81fc96cf0d4d86fab0beda618
+V
+&docker-compose/nacos/init.d/properties,f\6\f6400ea9174bc607866d86dd774c06d14fbb9053
+b
+2docker-compose/nacos/init.d/application.properties,c\8\c832955f6f6cf8070153cb3f19ad3d85b971737d
+k
+;docker-compose/nacos/seata-server/resources/application.yml,8\6\86356ef4098830beb89e16c0767e82b85610d9cc
