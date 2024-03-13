@@ -36,3 +36,5 @@ k
 ;docker-compose/nacos/seata-server/resources/application.yml,8\6\86356ef4098830beb89e16c0767e82b85610d9cc
 X
 (docker-compose/nacos/docker-compose.yaml,2\5\2511e946d3eb0d2c2f7ded1e7db04783def55cc1
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
