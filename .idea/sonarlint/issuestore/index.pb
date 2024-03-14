@@ -11,25 +11,15 @@ A
 -service-b/src/main/java/com/example/Main.java,0\2\029abd837617ebb5541d63510eb327893fa16fa1
 C
 api-gateway/pom.xml,2\b\2bfa2b108f2439e99e004f4085b58c22cf995f73
-_
-/api-gateway/src/main/java/com/example/Main.java,5\c\5c323f03cd4378ab8ff125d499655c3ca1734f84
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-^
-.docker-compose/nacos/docker-compose-nacos.yaml,1\1\112cfb12bd6cc20d48b3a4c1dff9eacda056059f
 R
 "docker-compose/nacos/env/mysql.env,1\8\18aa3b1eb618d528e700ab5e846e55219f162f32
 b
 2docker-compose/nacos/env/nacos-standlone-mysql.env,c\8\c8fa5675a050e724e22a0d6238a998ff001cd4fa
-[
-+docker-compose/nacos/image/mysql/Dockerfile,8\d\8d046442c5ed0d4bb193dac64905512735f3db59
-a
-1docker-compose/nacos/image/mysql/mysql-schema.sql,a\3\a30a8721181d04524d26d6c6415804fce82a2f22
 X
 (docker-compose/redis/docker-compose.yaml,0\8\087d60f4bf47f5c81fc96cf0d4d86fab0beda618
-V
-&docker-compose/nacos/init.d/properties,f\6\f6400ea9174bc607866d86dd774c06d14fbb9053
 b
 2docker-compose/nacos/init.d/application.properties,c\8\c832955f6f6cf8070153cb3f19ad3d85b971737d
 k
@@ -66,3 +56,7 @@ c
 +commons/src/main/java/com/example/Main.java,7\7\77afca536044074e448ecd6359e6ba5831f9d1e8
 x
 Hservice-a/src/main/java/com/example/controller/HelloWorldController.java,6\7\679db49aba8f9766dd182698efe96672f438da2f
+_
+/docker-compose/keycloak/nginx_config/nginx.conf,e\2\e21b43dfac00b9d330bc1f0859577d5dfd892fd1
+b
+2docker-compose/keycloak/conf.d/conf.d/default.conf,7\e\7ea312e9c83228f38770c6ac6560f6654ccf9eda

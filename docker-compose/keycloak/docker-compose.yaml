@@ -1,11 +1,24 @@
 version: "3.8"
 services:
+  nginx:
+    image: nginx:1.21.3 #镜像名称以及版本
+    restart: always #重启docker后该容器也重启
+    ports:
+      - 11080:11080 #本地端口号与容器内部端口号
+    volumes: #指定挂载目录
+      - ./nginx_config:/etc/nginx/conf.d
+    depends_on:
+      - keycloak
+
+
   keycloak:
     image: quay.io/keycloak/keycloak:21.0.2
     environment:
-      - KEYCLOAK_ADMIN=admin
-      - KEYCLOAK_ADMIN_PASSWORD=admin
-    ports:
-      - 17431:8080
+      - 'KEYCLOAK_ADMIN=admin'
+      - 'KEYCLOAK_ADMIN_PASSWORD=admin'
+      - 'PROXY_ADDRESS_FORWARDING=true'
+      - 'KC_HTTP_RELATIVE_PATH=/keycloak'
+#    ports:
+#      - 17431:8080
     command: ["start-dev"]
     #docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:24.0.1 start-dev
