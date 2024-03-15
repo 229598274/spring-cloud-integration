@@ -58,5 +58,5 @@ x
 Hservice-a/src/main/java/com/example/controller/HelloWorldController.java,6\7\679db49aba8f9766dd182698efe96672f438da2f
 _
 /docker-compose/keycloak/nginx_config/nginx.conf,e\2\e21b43dfac00b9d330bc1f0859577d5dfd892fd1
-b
-2docker-compose/keycloak/conf.d/conf.d/default.conf,7\e\7ea312e9c83228f38770c6ac6560f6654ccf9eda
+g
+7docker-compose/keycloak/docker-compose-nginx-proxy.yaml,b\8\b8b2d28fff5419d05c5da0fd73c0673b3399ce5b

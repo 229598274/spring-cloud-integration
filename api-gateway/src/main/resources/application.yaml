@@ -17,12 +17,6 @@ spring:
       # 定义多个路由
       routes:
         # 一个路由route的id
-        - id: path_route
-          # 该路由转发的目标URI
-          uri: http://localhost:11080
-          # 路由条件集合
-          predicates:
-            - Path=/keycloak/**
         - id: path_route-servicea
           # 该路由转发的目标URI
           uri: lb://service-a:17612
