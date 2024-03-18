@@ -5,15 +5,15 @@ spring:
   application:
     name: seata-server
 
-#logging:
+logging:
 #  config: classpath:logback-spring.xml
-#  file:
-#    path: ${user.home}/logs/seata
+  file:
+    path: ${user.home}/logs/seata
 #  extend:
 #    logstash-appender:
 #      destination: 127.0.0.1:4560
 #    kafka-appender:
-#      bootstrap-servers: 127.0.0.1:9092
+#      bootstrap-servers: 12.37.0.0.1:9092
 #      topic: logback_to_logstash
 
 console:
@@ -26,8 +26,8 @@ seata:
     # support: nacos, consul, apollo, zk, etcd3
     type: nacos
     nacos:
-      server-addr: nacos:8091
-      namespace: demo
+      server-addr: 172.16.15.102:8848
+      namespace: 400329f6-d7a5-488d-81ad-4e13114f1532
       group: DEV
       username: nacos
       password: nacos
@@ -38,9 +38,9 @@ seata:
     type: nacos
     nacos:
       application: seata-server
-      server-addr: nacos:8091
+      server-addr: 172.16.15.102:8848
       group: dev
-      namespace:  demo
+      namespace:  400329f6-d7a5-488d-81ad-4e13114f1532
       # tc集群名称
       cluster: default
       username: nacos

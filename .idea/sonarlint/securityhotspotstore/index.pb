@@ -60,3 +60,9 @@ _
 /docker-compose/keycloak/nginx_config/nginx.conf,e\2\e21b43dfac00b9d330bc1f0859577d5dfd892fd1
 g
 7docker-compose/keycloak/docker-compose-nginx-proxy.yaml,b\8\b8b2d28fff5419d05c5da0fd73c0673b3399ce5b
+X
+(docker-compose/seata/docker-compose.yaml,a\1\a1703fe982e289b3d8bf7519fa416294b11f2317
+k
+;docker-compose/seata/seata-server/resources/application.yml,e\7\e79df829c4654e28a68967aebf57683dd25f6028
+[
++docker-compose/seata/seata-server/mysql.sql,4\0\40f3febed72562d909d0cc7c6788960fb91973be
