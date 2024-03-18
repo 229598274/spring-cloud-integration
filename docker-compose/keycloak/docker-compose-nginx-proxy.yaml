@@ -21,4 +21,5 @@ services:
 #    ports:
 #      - 17431:8080
     command: ["start-dev"]
+    restart: always #重启docker后该容器也重启
     #docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:24.0.1 start-dev
