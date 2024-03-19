@@ -22,8 +22,6 @@ X
 (docker-compose/redis/docker-compose.yaml,0\8\087d60f4bf47f5c81fc96cf0d4d86fab0beda618
 b
 2docker-compose/nacos/init.d/application.properties,c\8\c832955f6f6cf8070153cb3f19ad3d85b971737d
-k
-;docker-compose/nacos/seata-server/resources/application.yml,8\6\86356ef4098830beb89e16c0767e82b85610d9cc
 X
 (docker-compose/nacos/docker-compose.yaml,2\5\2511e946d3eb0d2c2f7ded1e7db04783def55cc1
 9
@@ -32,12 +30,6 @@ X
 +docker-compose/keycloak/docker-compose.yaml,4\5\45aa4d1bf41d9fcdf5c7a17d1f411fca1b7457d7
 N
 docker-compose/nacos/readme.md,9\5\956d1fdb4b154483785bd767f8fa031ef5b814c2
-j
-:docker-compose/prometheus_grafana_loki/docker-compose.yaml,6\1\6143d20eec241f525f1316518aeb7f5420f68286
-w
-Gdocker-compose/prometheus_grafana_loki/prometheus_config/prometheus.yml,8\b\8bf84b76081a20e13ff2de19043317e5ee9640c0
-q
-Adocker-compose/prometheus_grafana_loki/grafana_config/grafana.ini,f\8\f8cbe38770b92c028669b0117aca9c8d99f411e6
 X
 (docker-compose/mysql/docker-compose.yaml,a\f\af0c702b1f026a151f0939c9b4e2a6e07a2e553c
 k
@@ -66,12 +58,6 @@ k
 ;docker-compose/seata/seata-server/resources/application.yml,e\7\e79df829c4654e28a68967aebf57683dd25f6028
 [
 +docker-compose/seata/seata-server/mysql.sql,4\0\40f3febed72562d909d0cc7c6788960fb91973be
-l
-<docker-compose/prometheus_grafana/grafana_config/grafana.ini,d\4\d4fb0ee126668ee0c0eff0102c94128a25d76e41
-r
-Bdocker-compose/prometheus_grafana/prometheus_config/prometheus.yml,0\0\00c1310bce438ec938f7e8b8ad0e9c194cab4c72
-e
-5docker-compose/prometheus_grafana/docker-compose.yaml,c\c\cc2bea4937cc6d39051f3f54ba317660686869e8
 W
 'docker-compose/loki/docker-compose.yaml,d\e\de90bd96fa43f713384b45bd9f988ceb3a9b724e
 a
@@ -80,3 +66,11 @@ f
 6docker-compose/loki/config/promtail-docker-config.yaml,1\c\1c75c6c642824ab2c5d1ed9540bb5a0a322ea289
 ^
 .docker-compose/loki/grafana_config/grafana.ini,f\1\f162dadac53d8fd8d830b1b750c08e72b333ab28
+]
+-docker-compose/prometheus/docker-compose.yaml,8\c\8c013a870ba72c9cac158b9699de1c25dbd4df17
+j
+:docker-compose/prometheus/prometheus_config/prometheus.yml,6\5\65c40a7f9543697e398ca2a46be5a82951d079f4
+`
+0docker-compose/elasticsearch/docker-compose.yaml,a\7\a76770b44f8913ee8361eb9e4f736c4ab7c21329
+]
+-docker-compose/clickhouse/docker-compose.yaml,6\9\695d72682a1997f2ab350e939d4c0a30f5e2a921

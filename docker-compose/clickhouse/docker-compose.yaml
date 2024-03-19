@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.2.2.71-alpine
+    ulimits:
+      nproc: 100000
+    ports:
+      - 18123:8123
+      - 19000:9000
