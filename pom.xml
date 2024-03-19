@@ -13,8 +13,8 @@
         <module>service-a</module>
         <module>service-b</module>
         <module>api-gateway</module>
-        <module>authn-commons</module>
-        <module>swagger-commons</module>
+        <module>authn-starter</module>
+        <module>swagger-starter</module>
         <module>commons</module>
     </modules>
 
