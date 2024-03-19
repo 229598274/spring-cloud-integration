@@ -74,3 +74,7 @@ j
 0docker-compose/elasticsearch/docker-compose.yaml,a\7\a76770b44f8913ee8361eb9e4f736c4ab7c21329
 ]
 -docker-compose/clickhouse/docker-compose.yaml,6\9\695d72682a1997f2ab350e939d4c0a30f5e2a921
+a
+1service-a/src/main/java/com/example/ServiceA.java,b\6\b658e9ae891ef0282c9cc7853229abbd43f34dfe
+s
+Cswagger-commons/src/main/java/com/example/config/SwaggerConfig.java,b\5\b509ee367390d7295e3271db27e40f96fe381874
