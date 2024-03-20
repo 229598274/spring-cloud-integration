@@ -45,7 +45,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 //            throw new RuntimeException("token非法");
 //        }
         //存入SecurityContextHolder
-        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken= new UsernamePasswordAuthenticationToken("username","password",null);
+        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken= new UsernamePasswordAuthenticationToken("username",null,null);
         SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
         //放行
         filterChain.doFilter(request,response);
