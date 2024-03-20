@@ -8,11 +8,14 @@ services:
       - ./prometheus_config/prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
+
+
   victoriametrics:
     image: victoriametrics/victoria-metrics:v1.93.12
     volumes:
       - ./victoria-metrics-data:/victoria-metrics-data
     ports:
       - 8428:8428
+    restart: always
 
 #docker run -it --rm -v `pwd`/victoria-metrics-data:/victoria-metrics-data -p 8428:8428 victoriametrics/victoria-metrics:latest

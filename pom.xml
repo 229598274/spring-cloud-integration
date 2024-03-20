@@ -13,9 +13,10 @@
         <module>service-a</module>
         <module>service-b</module>
         <module>api-gateway</module>
-        <module>authn-starter</module>
+        <module>authn-service-starter</module>
         <module>swagger-starter</module>
         <module>commons</module>
+        <module>authn-gateway-starter</module>
     </modules>
 
     <properties>
@@ -27,7 +28,10 @@
         <spring-boot.version>2.6.11</spring-boot.version>
         <spring-cloud.version>2021.0.4</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
-        <swagger-commons.version>1.0-SNAPSHOT</swagger-commons.version>
+        <swagger-starter.version>1.0-SNAPSHOT</swagger-starter.version>
+        <authn-starter.version>1.0-SNAPSHOT</authn-starter.version>
+        <jjwt.version>0.9.0</jjwt.version>
+        <fastjson.version>1.2.33</fastjson.version>
     </properties>
 
     <dependencyManagement>
@@ -74,8 +78,24 @@
             </dependency>
             <dependency>
                 <groupId>com.example</groupId>
-                <artifactId>swagger-commons</artifactId>
-                <version>${swagger-commons.version}</version>
+                <artifactId>swagger-starter</artifactId>
+                <version>${swagger-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>authn-service-starter</artifactId>
+                <version>${authn-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <!--fastjson依赖-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
