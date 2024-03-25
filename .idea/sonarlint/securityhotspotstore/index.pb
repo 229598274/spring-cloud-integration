@@ -102,3 +102,7 @@ j
 :service-a/src/main/java/com/example/config/DemoConfig.java,b\5\b55c4136f4134e1677dd7c902736691b4693ba27
 d
 4service-a/src/main/java/com/example/config/Demo.java,d\7\d7679a5bbca316a970669faa60896839f7618f04
+N
+auth2-resource-starter/pom.xml,4\7\47d37f0b7456ee526eaf9cddff8b142f639bb4e8
+j
+:auth2-resource-starter/src/main/java/com/example/Main.java,e\1\e13420c49d6bfcbf9ec6345548f13a8ef88288fe

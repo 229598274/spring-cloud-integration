@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class HelloWorldController {
 
-    @Value("${demo.name}")
-    String name;
-    @Autowired
-    User user;
+//    @Value("${demo.name}")
+//    String name;
+//    @Autowired
+//    User user;
 
     @GetMapping("/a")
     public String getA(){
-        return name;
+        return "1111";
     }
 //    @GetMapping("/demo")
 //    public String getDemo(){

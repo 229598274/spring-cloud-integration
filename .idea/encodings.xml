@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth2-resource-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth2-resource-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/authn-gateway-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/authn-gateway-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/authn-service-starter/src/main/java" charset="UTF-8" />
