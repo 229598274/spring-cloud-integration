@@ -106,3 +106,11 @@ N
 auth2-resource-starter/pom.xml,4\7\47d37f0b7456ee526eaf9cddff8b142f639bb4e8
 j
 :auth2-resource-starter/src/main/java/com/example/Main.java,e\1\e13420c49d6bfcbf9ec6345548f13a8ef88288fe
+†
+Vauth2-resource-starter/src/main/java/com/example/config/OAuthResourceServerConfig.java,f\b\fb18497ac0b40c215d1f604fbbe809784504a612
+x
+Hauth2-resource-starter/src/main/java/com/example/config/TokenConfig.java,5\6\561dc1ddcda90f3416b951b4a7ba5504b4986832
+P
+ auth2-resource-starter/readme.md,4\0\40eea84fd8dbc647c68da1db73ff598fc90c279c
+–
+fauth2-resource-starter/src/main/java/com/example/config/OAuth2ResourceServerSecurityConfiguration.java,8\2\82c90f4083cd9b886c5adc9cc9eec4cc8a1dcfb7
