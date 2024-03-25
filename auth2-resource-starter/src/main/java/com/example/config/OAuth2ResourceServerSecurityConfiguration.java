@@ -19,7 +19,7 @@ public class OAuth2ResourceServerSecurityConfiguration {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         // @formatter:off
-        http
+        http.csrf().disable()
 //                .authorizeHttpRequests((authorize) -> authorize
 //                        .antMatchers(HttpMethod.GET, "/message/**").hasAuthority("SCOPE_message:read")
 //                        .antMatchers(HttpMethod.POST, "/message/**").hasAuthority("SCOPE_message:write")
@@ -27,7 +27,7 @@ public class OAuth2ResourceServerSecurityConfiguration {
 //                )
 
                 .authorizeRequests()
-//                .antMatchers(HttpMethod.GET, "/message/**").hasAuthority("SCOPE_message:read")
+//                .antMatchers(HttpMethod.GET, "/message/**").
 //                .antMatchers(HttpMethod.POST, "/message/**").hasAuthority("SCOPE_message:write")
                 .antMatchers("/a").anonymous()
                 .and()

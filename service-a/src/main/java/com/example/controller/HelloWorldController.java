@@ -29,7 +29,7 @@ public class HelloWorldController {
 //    }
 
     @GetMapping("/message")
-    @PreAuthorize("hasAuthority('ADMIN')")
+    @PreAuthorize("hasAuthority('SCOPE_ADMIN')")
     public String getMessage(){
         return "message";
     }
