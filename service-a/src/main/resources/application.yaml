@@ -19,5 +19,13 @@ management:
 #  name: "123456"
 
 
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/spring/protocol/openid-connect/certs
+
+
 
 
