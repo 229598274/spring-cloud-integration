@@ -68,26 +68,12 @@ d
 4commons/src/main/java/com/example/config/Config.java,5\f\5fc30d8abedd3aa468e599cc8e397908bbcb304b
 n
 >commons/src/main/java/com/example/config/ConfigProperties.java,1\4\14e81e6f73032fa633902698e7b24910ae531ed2
-E
-authn-starter/pom.xml,b\7\b77b0cbab855a6598b3aa223031a0836faeab035
 s
 Cswagger-starter/src/main/java/com/example/config/SwaggerConfig.java,e\9\e9739fac0d4ec5ae3e19dde0a9c598f6f47dbddd
 G
 swagger-starter/pom.xml,8\4\843254e43acf7f7643b27f9ab7f250625236346b
-o
-?authn-starter/src/main/java/com/example/config/AuthnConfig.java,8\5\8542fc9755f723849fe4ea626eef5c18c94dad1c
 M
 authn-gateway-starter/pom.xml,3\5\35799725e13d3d550e6ec6ffd4bde717953633af
-i
-9authn-gateway-starter/src/main/java/com/example/Main.java,7\0\700036615a45b50f252ca02d5df691de656d7445
-€
-Pauthn-starter/src/main/java/com/example/config/JwtAuthenticationTokenFilter.java,3\7\379e3b16b30a36cff0f32084a7e5e487d3ef8715
-m
-=authn-starter/src/main/java/com/example/config/LoginUser.java,c\c\cc15949d23550c479a3517d1a83af83fc4d897f5
-h
-8authn-starter/src/main/java/com/example/config/User.java,c\e\ce4c4fac9e2798caa19bf29c52b5380d12753389
-k
-;authn-starter/src/main/java/com/example/config/JwtUtil.java,4\3\432b9cbe25c44d2214d64011288edd4f79d9aecd
 b
 2commons/src/main/java/com/example/config/User.java,5\5\55cdfeb69d7d295b49f85e10fa515d75cf4470b8
 p
@@ -102,3 +88,17 @@ Eauthn-service-starter/src/main/java/com/example/config/LoginUser.java,8\f\8f04
 Xauthn-service-starter/src/main/java/com/example/config/JwtAuthenticationTokenFilter.java,c\f\cfca91fe6f40e95dd29f0632df36baa2a9088435
 M
 authn-service-starter/pom.xml,1\2\12e7381856aa8636c3f2942104f5a3350936bda2
+w
+Gauthn-gateway-starter/src/main/java/com/example/config/AuthnConfig.java,b\7\b7f0f5ba587702e7e6a57b2c5e37fe4dd2b60ffd
+ˆ
+Xauthn-gateway-starter/src/main/java/com/example/config/JwtAuthenticationTokenFilter.java,4\2\42bdb4a6b14c8f9b92e0e6f9c689dd62c2c86c78
+s
+Cauthn-gateway-starter/src/main/java/com/example/config/JwtUtil.java,7\3\7333f0a67a06de706526377ad34b79435c2bd8a3
+u
+Eauthn-gateway-starter/src/main/java/com/example/config/LoginUser.java,f\6\f6c20fd4af6bb42b6179334a857ad4af23cc4d9f
+p
+@authn-gateway-starter/src/main/java/com/example/config/User.java,f\7\f7e7193b775fad0b76f16ef72ca7c907ee1b69ba
+j
+:service-a/src/main/java/com/example/config/DemoConfig.java,b\5\b55c4136f4134e1677dd7c902736691b4693ba27
+d
+4service-a/src/main/java/com/example/config/Demo.java,d\7\d7679a5bbca316a970669faa60896839f7618f04

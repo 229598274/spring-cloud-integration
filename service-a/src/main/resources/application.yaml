@@ -15,18 +15,9 @@ management:
     tags:
       application: ${spring.application.name}
 
-spring:
-  application:
-    name: service-a
-  cloud:
-    nacos:
-      server-addr: localhost:8848
-      username: nacos
-      password: nacos
-      discovery:  # 这里是和注册相关的配置
-        namespace: 400329f6-d7a5-488d-81ad-4e13114f1532
-        group: DEV # 往哪个组注册
-        service: ${spring.application.name}  # 这个才是注册列表的名字 如果不写 默认是取${spring.application.name}
-#      config:
-#        group: DEV
-#        dataId:
+#demo:
+#  name: "123456"
+
+
+
+
