@@ -20,11 +20,17 @@ public class OAuth2ResourceServerSecurityConfiguration {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         // @formatter:off
         http
-                .authorizeHttpRequests((authorize) -> authorize
-                        .antMatchers(HttpMethod.GET, "/message/**").hasAuthority("SCOPE_message:read")
-                        .antMatchers(HttpMethod.POST, "/message/**").hasAuthority("SCOPE_message:write")
-                        .anyRequest().authenticated()
-                )
+//                .authorizeHttpRequests((authorize) -> authorize
+//                        .antMatchers(HttpMethod.GET, "/message/**").hasAuthority("SCOPE_message:read")
+//                        .antMatchers(HttpMethod.POST, "/message/**").hasAuthority("SCOPE_message:write")
+//                        .anyRequest().authenticated()
+//                )
+
+                .authorizeRequests()
+//                .antMatchers(HttpMethod.GET, "/message/**").hasAuthority("SCOPE_message:read")
+//                .antMatchers(HttpMethod.POST, "/message/**").hasAuthority("SCOPE_message:write")
+                .antMatchers("/a").anonymous()
+                .and()
                 .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
         // @formatter:on
         return http.build();
