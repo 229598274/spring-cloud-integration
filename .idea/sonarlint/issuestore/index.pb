@@ -108,3 +108,9 @@ P
  auth2-resource-starter/readme.md,4\0\40eea84fd8dbc647c68da1db73ff598fc90c279c
 –
 fauth2-resource-starter/src/main/java/com/example/config/OAuth2ResourceServerSecurityConfiguration.java,8\2\82c90f4083cd9b886c5adc9cc9eec4cc8a1dcfb7
+L
+oauth2-login-starter/pom.xml,c\5\c55f544b426e6272cd87a648a617deffdf98648d
+h
+8oauth2-login-starter/src/main/java/com/example/Main.java,7\5\75a7752cbd4c12d19d733485ab1a985711333efd
+]
+-docker-compose/skywalking/docker-compose.yaml,3\5\35b7f36d495184c50dab2dcab2703ae85fff8f4c

@@ -26,11 +26,11 @@ public class OAuth2ResourceServerSecurityConfiguration {
 //                        .anyRequest().authenticated()
 //                )
 
-                .authorizeRequests()
+//                .authorizeRequests()
 //                .antMatchers(HttpMethod.GET, "/message/**").
 //                .antMatchers(HttpMethod.POST, "/message/**").hasAuthority("SCOPE_message:write")
-                .antMatchers("/a").anonymous()
-                .and()
+//                .antMatchers("/a").anonymous()
+//                .and()
                 .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
         // @formatter:on
         return http.build();

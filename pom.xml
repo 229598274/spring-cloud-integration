@@ -18,6 +18,7 @@
         <module>commons</module>
         <module>authn-gateway-starter</module>
         <module>auth2-resource-starter</module>
+        <module>oauth2-login-starter</module>
     </modules>
 
     <properties>

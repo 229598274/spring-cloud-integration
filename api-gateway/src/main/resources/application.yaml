@@ -13,15 +13,34 @@ spring:
         namespace: 400329f6-d7a5-488d-81ad-4e13114f1532
         group: DEV # 往哪个组注册
         service: ${spring.application.name}  # 这个才是注册列表的名字 如果不写 默认是取${spring.application.name}
-    gateway:
-      # 定义多个路由
-      routes:
-        # 一个路由route的id
-        - id: path_route-servicea
-          # 该路由转发的目标URI
-          uri: lb://service-a:17612
-          # 路由条件集合
-          predicates:
-            - Path=/a
+#    gateway:
+#      # 定义多个路由
+#      routes:
+#        # 一个路由route的id
+#        - id: path_route-servicea
+#          # 该路由转发的目标URI
+#          uri: lb://service-a:17612
+#          # 路由条件集合
+#          predicates:
+#            - Path=/a
+  security:
+    oauth2:
+      client:
+        registration:
+          login-client:
+            provider: spring
+            client-id: spring-gateway-demo
+            client-secret: gczdNxMGMS2081TEqCx3yb0zCFX9nEn1
+            authorization-grant-type: authorization_code
+            redirect-uri-template: "http://localhost:17610"
+            scope: openid,profile,email,resource.read
+        provider:
+          spring:
+            authorization-uri: http://localhost:8080/realms/spring/protocol/openid-connect/auth
+            token-uri: http://localhost:8080/realms/spring/protocol/openid-connect/token
+            user-info-uri: http://localhost:8080/realms/spring/protocol/openid-connect/userinfo
+            user-name-attribute: sub
+            jwk-set-uri: http://localhost:8080/realms/spring/protocol/openid-connect/certs
+
 
 
