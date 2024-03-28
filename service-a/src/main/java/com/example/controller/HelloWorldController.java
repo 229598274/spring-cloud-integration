@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/a")
 @RestController
-
 public class HelloWorldController {
 
 //    @Value("${demo.name}")
@@ -20,6 +19,7 @@ public class HelloWorldController {
 //    User user;
 
     @GetMapping("/a")
+    @PreAuthorize("hasAuthority('SCOPE_ADMIN5566')")
     public String getA(){
         return "1111";
     }

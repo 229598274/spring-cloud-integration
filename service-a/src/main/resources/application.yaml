@@ -2,6 +2,11 @@ server:
   port: 17612
 
 
+logging:
+  level:
+    root: debug
+    web: debug
+
 tomcat:
   mbeanregistry:
     enabled: true
